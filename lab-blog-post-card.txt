@@ -1,0 +1,65 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+        }
+        .blog-post-card {
+            background-color: white;
+            border-radius: 20px;
+            width: 500px;
+            text-align: start;
+        }
+        .post-img {
+            width: 100%;
+            border-bottom: 10px solid lightgreen;
+        }
+        .post-content {
+            padding: 20px 0;
+        }
+        .post-title, .post-excerpt {
+            color: #333;
+            margin: 10px;
+        }
+        .read-more {
+            margin: 5px;
+            color: #252525;
+            background-color: lightgreen;
+            padding: 5px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .read-more:hover {
+            background-color: #4AE34A;
+        }
+        </style>
+</head>
+<body>
+<div class="blog-post-card">
+    <img class="post-img" src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="labs cover photo">
+    <div class="post-content">
+        <h2 class="post-title">Learning Web Development in 2025</h2>
+        <p class="post-excerpt">Pls follow this roadmap to learn Web Development in 2025 — start with HTML, CSS, and JavaScript, then move into frameworks like React and backend tools like Node.js.</p>
+        <a class="read-more" href="https://roadmap.sh/frontend" target="_blank">Read More</a>
+        </div>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+
