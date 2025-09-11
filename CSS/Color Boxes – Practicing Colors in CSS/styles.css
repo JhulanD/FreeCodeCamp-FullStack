@@ -1,0 +1,45 @@
+/* Page background */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Grid container for the color boxes */
+.color-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* space between boxes */
+  margin-top: 20px;
+}
+
+/* Common box styling */
+.color-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px; /* smooth corners */
+}
+
+/* Individual colors */
+.color1 {
+  background-color: #fc2df4;
+}
+
+.color2 {
+  background-color: rgb(84, 179, 205);
+}
+
+.color3 {
+  background-color: greenyellow;
+}
+
+.color4 {
+  background-color: hsl(234, 80%, 56%);
+}
+
+.color5 {
+  background-color: rgb(183, 84, 205);
+}

@@ -1,0 +1,46 @@
+/* 11. Focus state - when input or textarea is active */
+input:focus,
+textarea:focus {
+  border-color: #333; /* Darker border when focused */
+}
+
+/* 12. Invalid state - shows red border for invalid fields */
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+/* 13. Valid state - shows green border for valid inputs */
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+/* 14. Button hover effect */
+button:hover {
+  background-color: darkslategrey;
+  color: white;
+  cursor: pointer;
+}
+
+/* 15-17. Checked radio button styling */
+.radio-group input[type="radio"]:checked {
+  border-color: #397fa5; /* 15 - outline color */
+  background-color: #267de5; /* 16 - background when checked */
+  box-shadow: 0 0 4px 2px #9a2c80; /* 17 - glowing shadow */
+}
+
+/* 18. Change label color when associated radio is checked */
+.radio-group input[type="radio"]:checked + label {
+  color: #a7612c;
+  font-weight: bold;
+}
+
+/* 19. Style the very first input field (Full Name) */
+input:first-of-type {
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  padding: 8px;
+}

@@ -1,0 +1,58 @@
+/* General page font */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card container */
+.blog-post-card {
+  background-color: white;
+  border-radius: 20px;
+  width: 500px;
+  text-align: start;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* ensures rounded corners also apply to image */
+}
+
+/* Post image */
+.post-img {
+  width: 100%;
+  display: block;
+  border-bottom: 10px solid lightgreen;
+}
+
+/* Content inside the card */
+.post-content {
+  padding: 20px 0;
+}
+
+/* Post title and excerpt */
+.post-title,
+.post-excerpt {
+  color: #333;
+  margin: 10px;
+}
+
+/* Read more button link */
+.read-more {
+  margin: 10px;
+  color: #252525;
+  background-color: lightgreen;
+  padding: 8px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.read-more:hover {
+  background-color: #4AE34A;
+}
